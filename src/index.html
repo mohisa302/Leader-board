@@ -24,13 +24,24 @@
             </div>
             <ul class="scores-container"></ul>
           </div>
-          <div class="add-container">
+          <form class="add-container">
             <h3 class="text-title">Add your score</h3>
-            <label class="input-label">Score</label>
-            <input class="add-input" type="text" placeholder="Your name" />
-            <input class="add-input" type="text" placeholder="Your score" />
+            <label for="name">Your name</label>
+            <input
+              class="add-input"
+              type="text"
+              placeholder="Your name"
+              required
+            />
+            <label for="fscore">Your score</label>
+            <input
+              class="add-input"
+              type="text"
+              placeholder="Your score"
+              required
+            />
             <button class="submit-btn" type="submit">Submit</button>
-          </div>
+          </form>
         </div>
       </section>
     </main>

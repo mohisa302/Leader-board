@@ -30,7 +30,7 @@ body {
 
 .add-container {
   display: flex;
-  row-gap: 2vh;
+  row-gap: 1vh;
   flex-direction: column;
 }
 
@@ -101,4 +101,12 @@ button:active {
   background-color: #0d02dc;
   box-shadow: 0 5px #666;
   transform: translateY(4px);
+}
+
+label {
+  visibility: hidden;
+}
+
+input {
+  padding: 2% 2%;
 }
