@@ -2,7 +2,7 @@
 
 <div>
 
-  <h1><b>To do list</b></h1><br/><br/>
+  <h1><b>Leader board</b></h1><br/><br/>
 
 </div>
 
@@ -25,9 +25,9 @@
 - [🙏 Acknowledgements](#acknowledgements)
 - [📝 License](#license)
 
-# 📖 To do list <a name="about-project"></a>
+# 📖 Leader board <a name="about-project"></a>
 
-**To do list** is a simple website that displays a list of task to do.
+**Leader board**
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -44,8 +44,6 @@
 
 - **Add and remove tasks**
 
-  - The website that displays a list of tasks and allows you to add and remove task from that list.
-
 - **JavaScript Classes**
 
   - The tasks are managed and manipulated using classes and helper functions within those classes.
@@ -57,8 +55,6 @@
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 🚀 Live Demo <a name="live-demo"></a>
-
-- Visit the live demo [here](https://mohisa302.github.io/Todolist/dist/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -85,14 +81,14 @@ To clone this repository to your desired folder, follow the steps below:
 
 ```sh
   cd my-folder
-  git clone https://github.com/mohisa302/Todolist.git
+  git clone git@github.com:mohisa302/Leader-board.git
 ```
 
 **Using GitHub Desktop app**
 
 - Follow the steps below
 
-  - Visit this link "https://github.com/mohisa302/Todolist.git"
+  - Visit this link "git@github.com:mohisa302/Leader-board.git"
   - Click the green button labelled "code"
   - Select the "Open with GitHub Desktop" option
   - After the GitHub Desktop add opens, click the "clone repo" button
