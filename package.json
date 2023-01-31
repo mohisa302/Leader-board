@@ -8,17 +8,9 @@
     "start": "webpack serve --open",
     "build": "webpack"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/mohisa302/Leader-board.git"
-  },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/mohisa302/Leader-board/issues"
-  },
-  "homepage": "https://github.com/mohisa302/Leader-board#readme",
   "devDependencies": {
     "@babel/core": "^7.20.12",
     "@babel/preset-env": "^7.20.2",
