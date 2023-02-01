@@ -27,9 +27,7 @@
 
 # 📖 Leader board <a name="about-project"></a>
 
-**Leader board**
-
-A simple web to Add data to API
+**Leader board** is A simple web to Add data to API
 
 ## 🛠 Built With <a name="built-with"></a>
 
