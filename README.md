@@ -58,7 +58,7 @@ A simple web to Add data to API
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-[click to go to the live demo](https://mohisa302.github.io/Leader-board/dist/index.html)
+[click to go to the live demo](https://mohisa302.github.io/Leader-board/index.html)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
