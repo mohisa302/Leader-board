@@ -20,7 +20,7 @@ body {
 .refresh-container {
   display: flex;
   align-items: center;
-  column-gap: 4vw;
+  justify-content: space-between;
 }
 
 .home {
@@ -65,6 +65,9 @@ main {
 
 .scores-container {
   border: 3px black solid;
+  display: flex;
+  flex-direction: column;
+  row-gap: 1vh;
 }
 
 .scores {
@@ -72,7 +75,7 @@ main {
   flex-direction: column;
   row-gap: 10%;
   margin-left: 5%;
-  width: 25%;
+  width: 40%;
 }
 
 h3 {
@@ -109,4 +112,35 @@ label {
 
 input {
   padding: 2% 2%;
+}
+
+.score-element {
+  width: 100%;
+  font-weight: bolder;
+  padding-left: 2%;
+}
+
+ul {
+  list-style-type: none;
+}
+
+li:nth-child(even) {
+  background: #79c9ed;
+  font-size: 20px;
+  color: #ffffff;
+}
+
+li:nth-child(odd) {
+  background: white;
+  font-size: 20px;
+}
+
+.alert {
+  display: none;
+  color: rgb(11, 209, 11);
+  font-size: 25px;
+}
+
+.add {
+  display: block;
 }
