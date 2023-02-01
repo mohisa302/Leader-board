@@ -1,5 +1,5 @@
 const scores = document.querySelector('.scores-container');
-export const display = (data) => {
+const display = (data) => {
   scores.innerHTML = '';
   data.forEach((element) => {
     const score = document.createElement('li');
@@ -8,3 +8,5 @@ export const display = (data) => {
     scores.appendChild(score);
   });
 };
+
+export default display;

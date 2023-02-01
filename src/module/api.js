@@ -1,23 +1,7 @@
-import { display } from './ui';
+import display from './ui.js';
 
-const url =
-  'https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/';
+const url = 'https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/';
 const id = 'BAt9evaH4u8uXntGPBiG';
-const body = (game) => {
-  name: game;
-};
-
-const addGame = async (gameName) => {
-  const response = await fetch(`${url}games`, {
-    method: 'POST',
-    headers: {
-      'Content-Type': 'application/json',
-    },
-    body: JSON.stringify({ name: 'game' }),
-  });
-  const id = await response.json();
-  return id;
-};
 
 export const getScore = async () => {
   const userPost = await fetch(`${url}${id}/scores`, {

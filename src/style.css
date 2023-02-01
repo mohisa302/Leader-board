@@ -127,7 +127,7 @@ ul {
 li:nth-child(even) {
   background: #79c9ed;
   font-size: 20px;
-  color: #ffffff;
+  color: #fff;
 }
 
 li:nth-child(odd) {
