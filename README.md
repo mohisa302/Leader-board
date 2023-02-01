@@ -28,6 +28,7 @@
 # 📖 Leader board <a name="about-project"></a>
 
 **Leader board**
+A simple web to Add data to API
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -55,6 +56,8 @@
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 🚀 Live Demo <a name="live-demo"></a>
+
+[click to go to the live demo](https://mohisa302.github.io/Leader-board/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -97,7 +100,8 @@ To clone this repository to your desired folder, follow the steps below:
 
 To run the project, execute the following command:
 
-**Click the "Go Live" button on your IDE(VS Code in this case)**
+- **npm install**
+- **npm start**
 
 ### Deployment
 
@@ -146,6 +150,6 @@ I would like to thank the whole Microverse community for their help and contribu
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](./LICENSE) licensed.
+This project is [MIT](./LICENSE.md) licensed.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
