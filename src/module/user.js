@@ -6,15 +6,15 @@ const alertContainer = document.querySelector('.alert');
 
 form.addEventListener('submit', (e) => {
   e.preventDefault();
-  const name = document.querySelector('.name').value;
-  const score = document.querySelector('.score').value;
-  addScore(name, score);
+  const name = document.querySelector('.name');
+  const score = document.querySelector('.score');
+  addScore(name.value, score.value);
   alertContainer.classList.add('add');
   setTimeout(() => {
     alertContainer.classList.remove('add');
   }, 5000);
-  name.innerhtml = '';
-  score.innerhtml = '';
+  name.value = '';
+  score.value = '';
 });
 
 btn.addEventListener('click', () => {
